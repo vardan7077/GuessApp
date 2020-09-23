@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GuessApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quote_format">\"%s\"</string>
+    <string name="score_format">Current score: %d</string>
+    <string name="final_score_format">Your score: %d</string>
+    <string name="rules">
+        Hi! Welcome to GuessApp!
+        You will see different words on the screen.
+        Don\'t show it to others.
+        You need to explain that words.
+        If they guess the word - you can press the button \"Got it\" and get your score!
+        You have only 60 sec to do it. Otherwise, you will lose 1 score.
+        Press the button \"Start\" to start!
+    </string>
+    <string name="short_instruction">
+        Explain this word to another players!
+        You have only 60 sec.
+        Good luck!
+    </string>
+</resources>
