@@ -51,6 +51,10 @@ class GameFragment : Fragment() {
                 viewModel.decreaseOne()
             }
         })
+
+        binding.GameOver.setOnClickListener{
+            findNavController().navigate(GameFragmentDirections.actionGameFragmentToScore(viewModel.count.value ?: 0))
+        }
         return binding.root
     }
 
